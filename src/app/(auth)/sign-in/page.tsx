@@ -13,3 +13,7 @@ import { ArrowRight, Loader2 } from 'lucide-react'
 import Link from 'next/link'
 import { useForm } from 'react-hook-form'
 
+import {
+  AuthCredentialsValidator,
+  TAuthCredentialsValidator,
+} from '@/lib/validators/account-credentials-validator'
