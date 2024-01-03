@@ -1,7 +1,14 @@
-import Image from 'next/image'
+'use client'
 
+import { Icons } from '@/components/Icons'
+import {
+  Button,
+  buttonVariants,
+} from '@/components/ui/button'
 export default function Home() {
   return (
-   <main></main>
+   <main>
+    
+   </main>
   )
 }
