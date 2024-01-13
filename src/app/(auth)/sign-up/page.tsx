@@ -17,3 +17,4 @@ import {
   AuthCredentialsValidator,
   TAuthCredentialsValidator,
 } from '@/lib/validators/account-credentials-validator'
+import { trpc } from '@/trpc/client'
